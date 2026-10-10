@@ -1,54 +1,39 @@
-Hi, I'm Simon 👋
+# Simon Haugk
 
-I design systems that replace operators.
+I build systems that make companies less dependent on their owners.
 
----
+Founder of [CEOPRENEUR](https://ceopreneur.com).
 
-## What I do
+My work sits at the intersection of:
 
-I build protocol-driven business systems that reduce founder dependency.
+- business systems architecture
+- AI-assisted operations
+- software orchestration
+- automation
+- product infrastructure
+- owner-independent company design
 
-Focus:
-- System architecture
-- AI-augmented workflows
-- Execution engines with TypeScript / Node.js
-- Multi-agent orchestration
+## What I'm building
 
----
+### CEOPRENEUR Labs
+The product and engineering layer behind CEOPRENEUR.
 
-## Core Thesis
+Building internal and external systems for diagnostics,
+lead generation, operations and decision support.
 
-Most businesses break because they depend on people.
+### Company OS
+A runtime architecture for turning business directives into
+controlled, auditable execution.
 
-I build systems that depend on protocols.
-
----
-
-## Current Work
-
-- CEOPRENEUR Engine V5  
-  → Multi-agent orchestration for business execution
-
-- Live News Retrieval Layer  
-  → Real-time information pipelines for AI-assisted workflows
-
-- Protocol-Driven Development (PDD)  
-  → Turning business logic into executable systems
-
----
-
-## Stack
-
-- TypeScript / Node.js
-- Next.js
-- Convex
-- LLM workflows
-- Retrieval pipelines
-
----
-
-## Philosophy
-
-A company is a system.
-
-If it depends on you, it's fragile.
+```text
+Interface
+   ↓
+Directive
+   ↓
+Orchestration
+   ↓
+Execution
+   ↓
+Systems of Record
+   ↓
+Human Gates
