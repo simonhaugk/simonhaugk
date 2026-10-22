@@ -1,79 +1,23 @@
 # Simon Haugk
 
-**Entrepreneur · Systems Architect · Builder**  
-Zug, Switzerland
+**Entrepreneur & Systems Architect**
 
-## I build systems that work without their founders.
+I have built and led businesses. Today, I design and implement business systems.
 
-I design businesses, architect software, and build operational systems — connecting commercial logic with technical execution.
+My background spans financial services, real estate, international expansion and e-commerce. I connect business logic, organization and processes with software and AI.
 
-Founder of [CEOPRENEUR](https://ceopreneur.com/).
+Founder of [CEOPRENEUR](https://ceopreneur.com/), where my current commercial focus is reducing owner dependency through Build to Leave™.
 
-My work sits at the intersection of:
+## Selected work
 
-- Business systems architecture
-- AI-assisted operations
-- Software orchestration
-- Automation
-- Product infrastructure
-- Owner-independent company design
+- **[FightPass](https://fightpass.ch/)** — Systems architecture and implementation for event ticketing: seat allocation, payments, ticket delivery and admission.
+- **WoosaWorks** — Scrum Product Owner for a self-funded ERP used internally in an e-commerce business.
+- **Company OS** — An architecture in development that separates business rules and governance from software and AI execution.
 
----
+[Project context, architectural decisions and scope →](PROJECTS.md)
 
-## Start Here
+Software and AI are tools within this work. My responsibility is how the business, its organization and its technical systems fit together.
 
-### 🎟️ [FightPass](https://fightpass.ch/) — Transaction Infrastructure
+Most implementation work is in private repositories. The project descriptions explain the work without publishing proprietary source code.
 
-Ticketing, seat reservation, payments, and event operations. A working software product built around transactional reliability.
-
-### 🧠 P17 — Business Diagnostics
-
-Structured analysis of organizational dependency and exit readiness. Part of the Build to Leave™ framework; development and validation are ongoing.
-
-### ⚙️ Company OS — Agentic Operations
-
-AI orchestration, governed execution, and human approval gates. An evolving architecture for separating business governance from the systems that execute it.
-
-[Selected work and technical context →](PROJECTS.md)
-
----
-
-## What I'm building
-
-### CEOPRENEUR Labs
-
-The product and engineering layer behind CEOPRENEUR.
-
-Building internal and external systems for diagnostics, lead generation, operations, and decision support.
-
-### Company OS
-
-A runtime architecture for turning business directives into controlled, auditable execution.
-
-```text
-Interface
-   ↓
-Directive
-   ↓
-Orchestration
-   ↓
-Execution
-   ↓
-Systems of Record
-   ↓
-Human Gates
-```
-
----
-
-## Building across disciplines
-
-`Business Architecture` · `AI Agents` · `TypeScript` · `Node.js` · `PostgreSQL` · `DevOps` · `Automation`
-
-## Selected Work
-
-**Build to Leave™ · CEOPRENEUR Labs · FightPass · Engine V5**
-
-These are selected commercial and internal projects, not open-source releases. The underlying code repositories remain private.
-
-**Elsewhere:** [CEOPRENEUR](https://ceopreneur.com/) · [CEOPRENEUR Labs](https://labs.ceopreneur.com/) · [LinkedIn](https://www.linkedin.com/in/haugk/)
+[CEOPRENEUR](https://ceopreneur.com/) · [CEOPRENEUR Labs](https://labs.ceopreneur.com/) · [LinkedIn](https://www.linkedin.com/in/haugk/)
