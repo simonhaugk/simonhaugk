@@ -1,80 +1,57 @@
 # Selected Work
 
-Selected engineering and systems-architecture work by **Simon Haugk**. These are public-facing summaries, not open-source releases. The underlying commercial repositories remain private.
-
----
+Business-systems architecture and implementation by **Simon Haugk**. These descriptions distinguish earlier operational work, software implementation and current development.
 
 ## FightPass
 
-**Event ticketing and transaction infrastructure** · Implemented product
+**Commercial ticketing system**
 
-[Product website](https://fightpass.ch)
+[Product website](https://fightpass.ch/)
 
-FightPass is a ticketing platform for combat-sports events, designed around real operational constraints rather than a static ticket checkout.
+FightPass connects event inventory, seat selection, checkout, payments, ticket delivery and admission. My work covers the architecture and implementation of these connected workflows.
 
-**Problem:** Sell assigned seats without double-booking, synchronize availability, collect payments and support admission at the venue.
+The architectural problem is maintaining a consistent transaction across steps that can expire, fail or be retried:
 
-**System scope:**
-- Seat selection with time-limited holds and concurrency controls.
-- Checkout and payment-event reconciliation with idempotent processing.
-- Digital tickets, QR-based admission and protection against duplicate check-ins.
-- Automated testing and release/operational controls.
+- Seat holds coordinate availability while a purchase is in progress.
+- Idempotent payment-event processing handles retries without repeating the same operation.
+- Ticket identity connects an order to its admission entitlement and check-in.
+- Automated tests cover application logic and browser workflows.
 
-**Engineering considerations:** transactional consistency, failure recovery, user experience across devices and end-to-end verification.
+The focus is the interaction between inventory, payment and admission systems. The commercial source repository and operational documents remain private.
 
-**Evidence boundary:** The production-facing product can be inspected via the link above. Source code, deployment details, customer information and internal runbooks are private. This summary does not imply published service-level or revenue metrics.
+## WoosaWorks
 
----
+**Internal ERP · Scrum Product Owner**
 
-## P17
+WoosaWorks was a self-funded ERP developed for internal e-commerce operations. I served as Product Owner in the Scrum context.
 
-**Structured business diagnostics** · In development and validation
+The work connected business requirements, product priorities and the software used in the operating business. It is an example of product ownership and process design within an existing company.
 
-[CEOPRENEUR — Diagnostic](https://ceopreneur.com/en)
-
-P17 is part of the Build to Leave™ work around owner dependency: the extent to which a business depends on its founder for decisions, relationships, knowledge and execution.
-
-**Problem:** Turn an ambiguous organizational risk into a structured, repeatable diagnostic process and a usable decision basis.
-
-**System scope:**
-- Diagnostic inputs and structured data contracts.
-- Consistent interpretation and report-generation pipelines.
-- Validation, configuration controls and traceable results.
-
-**Engineering considerations:** reproducibility, separation of measurement from interpretation, and prevention of fabricated or unsupported evidence.
-
-**Evidence boundary:** This work is not presented as an open-source tool or as a completed, independently validated diagnostic instrument. The underlying models, configurations and customer data remain private.
-
----
+The system was used internally and was not publicly launched.
 
 ## Company OS
 
-**Business operating architecture and controlled agent execution** · Ongoing development
+**Business operating architecture · In development**
 
-Company OS explores how organizational policy, business logic and software execution can be modeled separately from any specific AI agent, SaaS provider or runtime.
+Company OS is being developed to represent roles, decision rules and workflows in software and support their execution.
 
-**Problem:** Business processes become hard to transfer when their logic lives in a founder's head, a collection of prompts or a specific vendor's automation.
+Its architecture separates:
 
-**Architectural principles:**
-- Explicit company model, roles, decision rights and policy boundaries.
-- Separation of governance from execution.
-- Replaceable executors and adapters, with durable systems of record.
-- Human approvals, auditability and observable runtime behavior.
+- **Company model:** business structure, responsibilities, decision rights and workflows.
+- **Governance:** policies, permissions and human approvals for actions that require authorization.
+- **Execution:** replaceable software and AI executors and adapters.
+- **Systems of record:** the systems responsible for the underlying business data.
 
-**Engineering considerations:** permission boundaries, idempotency, controlled automation and operational recoverability.
+This separation is intended to keep business rules independent of a particular agent runtime or software provider. The architecture and implementation remain in development; a connection with Build to Leave™ is planned.
 
-**Evidence boundary:** This is an architecture and implementation program, not a claim that every component is production-complete. Repositories, credentials, network design and operational documents remain private.
+## Business context: Build to Leave™ and P17
 
----
+[Methodology and business context](https://ceopreneur.com/en/build-to-leave)
 
-## Build to Leave™
+Build to Leave™ is my methodology for reducing the dependence of a business on its owner. P17 is the accompanying diagnostic in development.
 
-**Business-systems framework** · Developed by Simon Haugk
-
-[Framework and business context](https://ceopreneur.com/)
-
-Build to Leave™ connects these technical projects to a commercial objective: creating companies that depend less on their owners. The framework is distinct from the software projects above.
+This work concerns how knowledge, decisions and responsibility are embedded in a company. The diagnostic work includes structured inputs, data contracts, validation and report-generation workflows; development and validation are ongoing.
 
 ---
 
-**Disclosure principle:** No client code, confidential business data, secrets or private architecture documents are published here. Where precise performance evidence is unavailable for publication, no figures are invented.
+[Back to profile](README.md) · [CEOPRENEUR](https://ceopreneur.com/) · [LinkedIn](https://www.linkedin.com/in/haugk/)
